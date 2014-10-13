@@ -1,10 +1,6 @@
-/**
- *
- * @authors chenzh (chenzh@newdi.cn)
- * @date    2014-05-12 10:51:04
- * @version $Id$
- */
+
  var http = require('http');
+ 
  var url = 'http://www.alloyteam.com/2012/10/common-javascript-design-patterns/'
  var articles = {};
  function parse_catalog(html) {
